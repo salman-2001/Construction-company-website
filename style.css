@@ -43,7 +43,7 @@ a {
   text-decoration: none;
 }
 #wrapper {
-  max-width: 1280px;
+  max-width: 100%;
   margin: 0 auto;
 }
 
@@ -57,11 +57,12 @@ a {
   background-image: url(asset/images/spotlight.png);
   background-repeat: no-repeat;
   background-size: cover;
+  height: 100vh;
 }
 header {
   height: 120px;
   background-color: #00000066;
-  padding: 19px 90px;
+  padding: 19px 110px;
 }
 .main-logo {
   width: 60px;
@@ -135,25 +136,27 @@ header {
 .h5 {
   color: #dbd2e8;
   font-family: "Outfit-light";
-  font-size: 14px;
+  font-size: 16px;
   font-weight: 300;
 }
 .h2 {
   color: #f5f0fc;
   font-family: "Outfit-regular";
   font-weight: 400;
-  font-size: 27px;
+  font-size: 29px;
 }
 .h4 {
   color: #d0ccd6;
   font-family: "Outfit-light";
-  font-size: 16px;
+  font-size: 18px;
   font-weight: 300;
 }
 
 /* page 2  */
 #page-2 {
-  padding: 90px;
+  /* width: 80%;
+  margin: 0 auto; */
+  padding: 110px;
   display: flex;
   flex-direction: column;
   grid-gap: 80px;
@@ -179,7 +182,7 @@ header {
   white-space: nowrap;
   color: #2c0070;
   font-family: "Outfit-regular";
-  font-size: 17px;
+  font-size: 19px;
   padding: 10px 0 0px 20px;
 }
 .cl-h2 {
@@ -231,19 +234,27 @@ input {
 }
 .name {
   width: 560px;
+  background: none;
+  color: white;
+  border: solid 1px;
+
 }
 
 #page-3 {
-  background-image: url(asset/images/ConstructionToolbox.jpg);
+  background-image: url(asset/images/construction-tools-dark-background.jpg);
   background-size: cover;
   background-repeat: no-repeat;
-  padding: 90px;
+  padding: 110px;
+  height: 100vh;
+align-content: center;
 }
 
 .p3-c {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
+  /* width: 80%;
+  margin: 0 auto; */
 }
 .p3-c1 {
   display: flex;
@@ -306,11 +317,11 @@ form {
   backdrop-filter: blur(8px);
   z-index: 4;
 }
-.p3-c .h2,
+/* .p3-c .h2,
 .h4,
 .h5 {
   color: white;
-}
+} */
 .p3-c label {
   color: white;
 }
@@ -320,8 +331,8 @@ input {
 
 /* page 4 */
 #page-4 {
-  width: 1100px;
-  margin: 0 auto;
+  /* width: 80%;
+  margin: 0 auto; */
 }
 
 #page-4 form {
@@ -346,7 +357,7 @@ input {
   align-items: center;
   justify-content: space-between;
   background-color: black;
-  padding: 50px;
+  padding: 110px;
   margin-top: 50px;
 }
 .p4-c1 :nth-child(1) {
@@ -362,7 +373,7 @@ input {
   display: flex;
 
   justify-content: space-between;
-  padding:90px 40px;
+  padding:90px 110px;
 }
 .logos {
   display: flex;
